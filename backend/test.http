@@ -1,0 +1,12 @@
+POST http://localhost:3000/pets
+Content-Type: application/json
+
+{
+"title": "Golden Retriever",
+  "categorieId": "PASTE_CATEGORY_ID",
+  "price": "1200",
+  "description": "Friendly dog",
+  "isPopular": true,
+  "stackNum": 5,
+  "img": "🐶"
+}
